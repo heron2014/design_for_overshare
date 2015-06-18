@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="mobile_first.css" media="screen, handheld" />
+    <link rel="stylesheet" type="text/css" href="enhanced.css" media="screen  and (min-width: 48em)" />
+</head>
+<body>
+<div class="container">
+    <div class="section1">
+        <h1 class="logo">Welcome to Overshare</h1>
+        <div id="form_wrapper">
+            <h2 class="twitter">Login using Twitter</h2>
+            <h2>or</h2>
+
+            <form action='/login' method='POST' id="login_form">
+                <label for='email'>Email</label>
+                <input id='email_input' name='email' type='text'>
+                <label for='password'>Password</label>
+                <input id='password_input' name='password' type='password'>
+                <button id='login_button'>Login</button>
+            </form>
+            <h2 class='member_text'>Not a member yet?<span class="join"><a href="#">Join Us</a></span></h2>
+        </div>
+    </div>
+</div>
+<script src=""></script>
+</body>
+</html>
